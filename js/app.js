@@ -6,7 +6,6 @@ let nome;
 nome = prompt("Ciao come ti chiami?");
 //  - stamparlo con il console.log
 console.log(nome);
-//
 //- chiedere all'utente il suo cognome
 //  - creare variabile username
 let username 
@@ -15,7 +14,6 @@ let username
 username = prompt("Quale il tuo cognome?");
 //  - stamparlo con il console.log
 console.log(username);
-//
 //- chiedere all'utente il suo colore perferito
 //  - creare variabile color
 let color;
@@ -24,10 +22,9 @@ let color;
 color = prompt("Quale il tuo colore perferito");
 //  - stamparlo con il console.log
 console.log(color);
-//
 //- password generata dagli input dell'utente
 //  - creare variabile password dove concateni le variabili name username e color piu il numero 21
-let password = nome + username + color + 21
+const password = nome + username + color + 21
 // stamparlo con il console.log
 console.log(password)
 // creare variabile che andara a modificare il dom tramite id 
